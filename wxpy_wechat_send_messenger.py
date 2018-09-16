@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+# @Author  : TomTonys
+# @Software: PyCharm
+# @File    : wxpy_wechat_send_messenger.py
+# @Time    : 2018/9/16
+# @version : python 3.7
+
 import wxpy, time, threading
 from tkinter import *
 
@@ -5,6 +12,7 @@ class Wechat_Send_Messenger():
     '''
     Wechat_Send_Messenger能对指定的微信好友发送一条或者多次重发发送一条信息
     get_wechat_text函数目前弃用
+    请勿恶意使用此脚本
     '''
     def __init__(self):
         pass
